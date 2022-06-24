@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="d-grid gap-3">
+        <div class="p-4 text-center">
+            <h1 class="text-center">Ingrese Producto</h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <form action="/productos" method="post" role="form">
+                <div class="mb-3">
+                    <label for="title" class="font-weight-bold">Nombre</label>
+                    <input type="text" class="form-control" name="title" id="title">
+                </div>
+                <div class="mb-3">
+                    <label for="price">Precio</label>
+                    <input type="number" class="form-control" name="price" id="price">
+                </div>
+                <div class="mb-3">
+                    <label for="thumbnail">Foto URL</label>
+                    <input type="text" class="form-control" name="thumbnail" id="thumbnail">
+                </div>
+                <div class="d-grid gap-3">
+                    <div class="p-4 text-center">
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
